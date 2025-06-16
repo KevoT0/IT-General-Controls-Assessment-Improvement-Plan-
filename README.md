@@ -106,17 +106,18 @@ Evaluate against regulatory frameworks and standards such as ISO/IEC 27001, SOX,
 
 ## Deliverable 4: Mapping Gaps to ISO 27001 Controls
 
-| ITGC Domain         | Gap Identified                                | ISO 27001 Control Reference         |
-|---------------------|-----------------------------------------------|------------------------------------|
-| Access Control      | Inactive/offboarding user accounts not disabled | A.9.2.6 – Removal of Access Rights  |
-| Access Control      | No formal access reviews                        | A.9.2.1 – User Access Management    |
-| Change Management   | No sandbox/testing before production changes   | A.12.1.2 – Change Management        |
-| Change Management   | No documentation or approvals                   | A.12.1.2 – Change Management        |
-| Backup & Recovery   | Unencrypted backups, no DR plan                  | A.12.3.1 – Information Backup       |
-| Logging & Monitoring| Logs deleted after 7 days; no centralized logging | A.12.4.1 – Event Logging            |
-| Logging & Monitoring| No SIEM or endpoint integration                   | A.12.4.3 – Administrator Logs      |
-| Information Security Policy | Outdated policies, no reviews               | A.5.1.1 – Policies for Information Security |
-| Governance & Awareness | No ITGC framework or training                   | A.7.2.2 – Information Security Awareness, Education and Training |
+| ITGC Domain           | Gap Identified                                      | Annex A Control Code | Annex A Control Name                                  |
+|-----------------------|----------------------------------------------------|---------------------|------------------------------------------------------|
+| Access Management      | Orphaned user accounts not disabled                 | A.5.3               | Identity and access management                        |
+|                       | No formal user access review                         | A.5.3               | Identity and access management                        |
+| Change Management      | Changes made directly in production without testing/documentation | A.8.9               | Change control                                        |
+|                       | No documentation of changes or approvals            | A.8.9               | Change control                                        |
+| Backup & Recovery      | Backups not encrypted                                | A.8.6               | Backup                                               |
+|                       | No disaster recovery plan or testing                 | A.8.6               | Backup / Recovery plans                               |
+| Logging & Monitoring   | Logs deleted after 7 days; no centralized logging  | A.8.10              | Logging and monitoring                                |
+|                       | No SIEM or endpoint integration                      | A.8.10              | Logging and monitoring                                |
+| Policy & Governance    | Security policies outdated                            | A.5.1               | Policies for information security                     |
+|                       | No formal ITGC framework or training                  | A.7.2               | Information security awareness and training          |
 
 ---
 
